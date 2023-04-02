@@ -16,3 +16,10 @@ void _puts(char *str)
         }
         putchar('\n');
 }
+The only change made is the inclusion of the stdio.h header at the top of the file. This allows the putchar function to be used in the code.
+
+
+
+
+
+t 
