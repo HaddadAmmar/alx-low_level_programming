@@ -1,8 +1,6 @@
 /**
- * _puts - prints a string, followed by a new line, to stdout.
- * @str: string to be printed
- *
- * Return: void
+ * _puts - prints a string to stdout followed by a new line
+ * @str: the string to print
  */
 void _puts(char *str)
 {
@@ -10,8 +8,8 @@ void _puts(char *str)
 
     while (str[i] != '\0')
     {
-        _putchar(str[i]);
+        putchar(str[i]);
         i++;
     }
-    _putchar('\n');
+    putchar('\n');
 }
